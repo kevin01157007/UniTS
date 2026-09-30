@@ -1,0 +1,23 @@
+task_dataset:
+
+  CLS_FOG:
+    task_name: classification
+    dataset: FOG
+
+    data: UEA
+
+    embed: timeF
+
+    root_path: ../fog_exp/units_dataset/ParkinsonsFOG/
+
+    seq_len: 300
+
+    label_len: 0
+
+    pred_len: 0
+
+    enc_in: 55
+
+    num_class: 2
+
+    c_out: None

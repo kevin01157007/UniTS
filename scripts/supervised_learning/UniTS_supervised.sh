@@ -19,10 +19,10 @@ torchrun --nnodes 1 --nproc-per-node=1  --master_port $random_port  run.py \
   --des 'Exp' \
   --learning_rate 1e-4 \
   --weight_decay 5e-6 \
-  --train_epochs 5 \
-  --batch_size 32 \
-  --acc_it 32 \
+  --train_epochs 50 \
+  --batch_size 16 \
+  --acc_it 1 \
   --debug $wandb_mode \
   --project_name $project_name \
   --clip_grad 100 \
-  --task_data_config_path data_provider/multi_task.yaml
+  --task_data_config_path data_provider/single_task.yaml
