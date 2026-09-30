@@ -74,7 +74,7 @@ if __name__ == '__main__':
     parser.add_argument('--des', type=str, default='test',
                         help='exp description')
     parser.add_argument('--debug', type=str,
-                        default='enabled', help='disabled')
+                        default='online', help='Weights & Biases mode')
     parser.add_argument('--clip_grad', type=float, default=None, help="""Maximal parameter
         gradient norm if using gradient clipping.""")
     parser.add_argument('--checkpoints', type=str,

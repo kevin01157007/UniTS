@@ -1,6 +1,6 @@
 model_name=UniTS
 exp_name=UniTS_supervised_x64
-wandb_mode=online
+wandb_mode=disabled
 project_name=supervised_learning
 
 random_port=$((RANDOM % 9000 + 1000))

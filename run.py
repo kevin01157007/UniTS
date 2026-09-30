@@ -74,7 +74,7 @@ if __name__ == '__main__':
     parser.add_argument('--pretrained_weight', type=str, default=None,
                         help='location of pretrained model checkpoints')
     parser.add_argument('--debug', type=str,
-                        default='enabled', help='disabled')
+                        default='online', help='Weights & Biases mode')
     parser.add_argument('--project_name', type=str,
                         default='tsfm-multitask', help='wandb project name')
 
