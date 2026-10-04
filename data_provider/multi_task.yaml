@@ -14,297 +14,297 @@ task_dataset:
     dec_in: 111
     c_out: 111
 
-  LTF_ECL_p96:
-    task_name: long_term_forecast
-    dataset: ECL
-    data: custom
-    embed: timeF
-    root_path: ../dataset/electricity/
-    data_path: electricity.csv
-    features: M
-    seq_len: 96
-    label_len: 48
-    pred_len: 96
-    enc_in: 321
-    dec_in: 321
-    c_out: 321
+  # LTF_ECL_p96:
+  #   task_name: long_term_forecast
+  #   dataset: ECL
+  #   data: custom
+  #   embed: timeF
+  #   root_path: ./dataset/electricity/
+  #   data_path: electricity.csv
+  #   features: M
+  #   seq_len: 96
+  #   label_len: 48
+  #   pred_len: 96
+  #   enc_in: 321
+  #   dec_in: 321
+  #   c_out: 321
 
-  LTF_ECL_p192:
-    task_name: long_term_forecast
-    dataset: ECL
-    data: custom
-    embed: timeF
-    root_path: ../dataset/electricity/
-    data_path: electricity.csv
-    features: M
-    seq_len: 96
-    label_len: 48
-    pred_len: 192
-    enc_in: 321
-    dec_in: 321
-    c_out: 321
+  # LTF_ECL_p192:
+  #   task_name: long_term_forecast
+  #   dataset: ECL
+  #   data: custom
+  #   embed: timeF
+  #   root_path: ./dataset/electricity/
+  #   data_path: electricity.csv
+  #   features: M
+  #   seq_len: 96
+  #   label_len: 48
+  #   pred_len: 192
+  #   enc_in: 321
+  #   dec_in: 321
+  #   c_out: 321
 
-  LTF_ECL_p336:
-    task_name: long_term_forecast
-    dataset: ECL
-    data: custom
-    embed: timeF
-    root_path: ../dataset/electricity/
-    data_path: electricity.csv
-    features: M
-    seq_len: 96
-    label_len: 48
-    pred_len: 336
-    enc_in: 321
-    dec_in: 321
-    c_out: 321
+  # LTF_ECL_p336:
+  #   task_name: long_term_forecast
+  #   dataset: ECL
+  #   data: custom
+  #   embed: timeF
+  #   root_path: ./dataset/electricity/
+  #   data_path: electricity.csv
+  #   features: M
+  #   seq_len: 96
+  #   label_len: 48
+  #   pred_len: 336
+  #   enc_in: 321
+  #   dec_in: 321
+  #   c_out: 321
 
-  LTF_ECL_p720:
-    task_name: long_term_forecast
-    dataset: ECL
-    data: custom
-    embed: timeF
-    root_path: ../dataset/electricity/
-    data_path: electricity.csv
-    features: M
-    seq_len: 96
-    label_len: 48
-    pred_len: 720
-    enc_in: 321
-    dec_in: 321
-    c_out: 321
+  # LTF_ECL_p720:
+  #   task_name: long_term_forecast
+  #   dataset: ECL
+  #   data: custom
+  #   embed: timeF
+  #   root_path: ./dataset/electricity/
+  #   data_path: electricity.csv
+  #   features: M
+  #   seq_len: 96
+  #   label_len: 48
+  #   pred_len: 720
+  #   enc_in: 321
+  #   dec_in: 321
+  #   c_out: 321
 
-  LTF_ETTh1_p96:
-    task_name: long_term_forecast
-    dataset: ETTh1
-    data: ETTh1
-    embed: timeF
-    root_path: ../dataset/ETT-small/
-    data_path: ETTh1.csv
-    features: M
-    seq_len: 96
-    label_len: 48
-    pred_len: 96
-    enc_in: 7
-    dec_in: 7
-    c_out: 7
+  # LTF_ETTh1_p96:
+  #   task_name: long_term_forecast
+  #   dataset: ETTh1
+  #   data: ETTh1
+  #   embed: timeF
+  #   root_path: ./dataset/ETT-small/
+  #   data_path: ETTh1.csv
+  #   features: M
+  #   seq_len: 96
+  #   label_len: 48
+  #   pred_len: 96
+  #   enc_in: 7
+  #   dec_in: 7
+  #   c_out: 7
 
-  LTF_ETTh1_p192:
-    task_name: long_term_forecast
-    dataset: ETTh1
-    data: ETTh1
-    embed: timeF
-    root_path: ../dataset/ETT-small/
-    data_path: ETTh1.csv
-    features: M
-    seq_len: 96
-    label_len: 48
-    pred_len: 192
-    enc_in: 7
-    dec_in: 7
-    c_out: 7
+  # LTF_ETTh1_p192:
+  #   task_name: long_term_forecast
+  #   dataset: ETTh1
+  #   data: ETTh1
+  #   embed: timeF
+  #   root_path: ./dataset/ETT-small/
+  #   data_path: ETTh1.csv
+  #   features: M
+  #   seq_len: 96
+  #   label_len: 48
+  #   pred_len: 192
+  #   enc_in: 7
+  #   dec_in: 7
+  #   c_out: 7
 
-  LTF_ETTh1_p336:
-    task_name: long_term_forecast
-    dataset: ETTh1
-    data: ETTh1
-    embed: timeF
-    root_path: ../dataset/ETT-small/
-    data_path: ETTh1.csv
-    features: M
-    seq_len: 96
-    label_len: 48
-    pred_len: 336
-    enc_in: 7
-    dec_in: 7
-    c_out: 7
+  # LTF_ETTh1_p336:
+  #   task_name: long_term_forecast
+  #   dataset: ETTh1
+  #   data: ETTh1
+  #   embed: timeF
+  #   root_path: ./dataset/ETT-small/
+  #   data_path: ETTh1.csv
+  #   features: M
+  #   seq_len: 96
+  #   label_len: 48
+  #   pred_len: 336
+  #   enc_in: 7
+  #   dec_in: 7
+  #   c_out: 7
 
-  LTF_ETTh1_p720:
-    task_name: long_term_forecast
-    dataset: ETTh1
-    data: ETTh1
-    embed: timeF
-    root_path: ../dataset/ETT-small/
-    data_path: ETTh1.csv
-    features: M
-    seq_len: 96
-    label_len: 48
-    pred_len: 720
-    enc_in: 7
-    dec_in: 7
-    c_out: 7
+  # LTF_ETTh1_p720:
+  #   task_name: long_term_forecast
+  #   dataset: ETTh1
+  #   data: ETTh1
+  #   embed: timeF
+  #   root_path: ./dataset/ETT-small/
+  #   data_path: ETTh1.csv
+  #   features: M
+  #   seq_len: 96
+  #   label_len: 48
+  #   pred_len: 720
+  #   enc_in: 7
+  #   dec_in: 7
+  #   c_out: 7
 
-  LTF_Exchange_p192:
-    task_name: long_term_forecast
-    dataset: Exchange
-    data: custom
-    embed: timeF
-    root_path: ../dataset/exchange_rate/
-    data_path: exchange_rate.csv
-    features: M
-    seq_len: 96
-    label_len: 48
-    pred_len: 192
-    enc_in: 8
-    dec_in: 8
-    c_out: 8
+  # LTF_Exchange_p192:
+  #   task_name: long_term_forecast
+  #   dataset: Exchange
+  #   data: custom
+  #   embed: timeF
+  #   root_path: ./dataset/exchange_rate/
+  #   data_path: exchange_rate.csv
+  #   features: M
+  #   seq_len: 96
+  #   label_len: 48
+  #   pred_len: 192
+  #   enc_in: 8
+  #   dec_in: 8
+  #   c_out: 8
 
-  LTF_Exchange_p336:
-    task_name: long_term_forecast
-    dataset: Exchange
-    data: custom
-    embed: timeF
-    root_path: ../dataset/exchange_rate/
-    data_path: exchange_rate.csv
-    features: M
-    seq_len: 96
-    label_len: 48
-    pred_len: 336
-    enc_in: 8
-    dec_in: 8
-    c_out: 8
+  # LTF_Exchange_p336:
+  #   task_name: long_term_forecast
+  #   dataset: Exchange
+  #   data: custom
+  #   embed: timeF
+  #   root_path: ./dataset/exchange_rate/
+  #   data_path: exchange_rate.csv
+  #   features: M
+  #   seq_len: 96
+  #   label_len: 48
+  #   pred_len: 336
+  #   enc_in: 8
+  #   dec_in: 8
+  #   c_out: 8
 
-  LTF_ILI_p60:
-    task_name: long_term_forecast
-    dataset: ILI
-    data: custom
-    embed: timeF
-    root_path: ../dataset/illness/
-    data_path: national_illness.csv
-    features: M
-    seq_len: 36
-    label_len: 18
-    pred_len: 60
-    enc_in: 7
-    dec_in: 7
-    c_out: 7
+  # LTF_ILI_p60:
+  #   task_name: long_term_forecast
+  #   dataset: ILI
+  #   data: custom
+  #   embed: timeF
+  #   root_path: ./dataset/illness/
+  #   data_path: national_illness.csv
+  #   features: M
+  #   seq_len: 36
+  #   label_len: 18
+  #   pred_len: 60
+  #   enc_in: 7
+  #   dec_in: 7
+  #   c_out: 7
 
-  LTF_Traffic_p96:
-    task_name: long_term_forecast
-    dataset: Traffic
-    data: custom
-    embed: timeF
-    root_path: ../dataset/traffic/
-    data_path: traffic.csv
-    features: M
-    seq_len: 96
-    label_len: 48
-    pred_len: 96
-    enc_in: 862
-    dec_in: 862
-    c_out: 862
+  # LTF_Traffic_p96:
+  #   task_name: long_term_forecast
+  #   dataset: Traffic
+  #   data: custom
+  #   embed: timeF
+  #   root_path: ./dataset/traffic/
+  #   data_path: traffic.csv
+  #   features: M
+  #   seq_len: 96
+  #   label_len: 48
+  #   pred_len: 96
+  #   enc_in: 862
+  #   dec_in: 862
+  #   c_out: 862
 
-  LTF_Traffic_p192:
-    task_name: long_term_forecast
-    dataset: Traffic
-    data: custom
-    embed: timeF
-    root_path: ../dataset/traffic/
-    data_path: traffic.csv
-    features: M
-    seq_len: 96
-    label_len: 48
-    pred_len: 192
-    enc_in: 862
-    dec_in: 862
-    c_out: 862
+  # LTF_Traffic_p192:
+  #   task_name: long_term_forecast
+  #   dataset: Traffic
+  #   data: custom
+  #   embed: timeF
+  #   root_path: ./dataset/traffic/
+  #   data_path: traffic.csv
+  #   features: M
+  #   seq_len: 96
+  #   label_len: 48
+  #   pred_len: 192
+  #   enc_in: 862
+  #   dec_in: 862
+  #   c_out: 862
   
-  LTF_Traffic_p336:
-    task_name: long_term_forecast
-    dataset: Traffic
-    data: custom
-    embed: timeF
-    root_path: ../dataset/traffic/
-    data_path: traffic.csv
-    features: M
-    seq_len: 96
-    label_len: 48
-    pred_len: 336
-    enc_in: 862
-    dec_in: 862
-    c_out: 862
+  # LTF_Traffic_p336:
+  #   task_name: long_term_forecast
+  #   dataset: Traffic
+  #   data: custom
+  #   embed: timeF
+  #   root_path: ./dataset/traffic/
+  #   data_path: traffic.csv
+  #   features: M
+  #   seq_len: 96
+  #   label_len: 48
+  #   pred_len: 336
+  #   enc_in: 862
+  #   dec_in: 862
+  #   c_out: 862
 
-  LTF_Traffic_p720:
-    task_name: long_term_forecast
-    dataset: Traffic
-    data: custom
-    embed: timeF
-    root_path: ../dataset/traffic/
-    data_path: traffic.csv
-    features: M
-    seq_len: 96
-    label_len: 48
-    pred_len: 720
-    enc_in: 862
-    dec_in: 862
-    c_out: 862
+  # LTF_Traffic_p720:
+  #   task_name: long_term_forecast
+  #   dataset: Traffic
+  #   data: custom
+  #   embed: timeF
+  #   root_path: ./dataset/traffic/
+  #   data_path: traffic.csv
+  #   features: M
+  #   seq_len: 96
+  #   label_len: 48
+  #   pred_len: 720
+  #   enc_in: 862
+  #   dec_in: 862
+  #   c_out: 862
   
-  LTF_Weather_p96:
-    task_name: long_term_forecast
-    dataset: Weather
-    data: custom
-    embed: timeF
-    root_path: ../dataset/weather/
-    data_path: weather.csv
-    features: M
-    seq_len: 96
-    label_len: 48
-    pred_len: 96
-    enc_in: 21
-    dec_in: 21
-    c_out: 21
+  # LTF_Weather_p96:
+  #   task_name: long_term_forecast
+  #   dataset: Weather
+  #   data: custom
+  #   embed: timeF
+  #   root_path: ./dataset/weather/
+  #   data_path: weather.csv
+  #   features: M
+  #   seq_len: 96
+  #   label_len: 48
+  #   pred_len: 96
+  #   enc_in: 21
+  #   dec_in: 21
+  #   c_out: 21
 
-  LTF_Weather_p192:
-    task_name: long_term_forecast
-    dataset: Weather
-    data: custom
-    embed: timeF
-    root_path: ../dataset/weather/
-    data_path: weather.csv
-    features: M
-    seq_len: 96
-    label_len: 48
-    pred_len: 192
-    enc_in: 21
-    dec_in: 21
-    c_out: 21
+  # LTF_Weather_p192:
+  #   task_name: long_term_forecast
+  #   dataset: Weather
+  #   data: custom
+  #   embed: timeF
+  #   root_path: ./dataset/weather/
+  #   data_path: weather.csv
+  #   features: M
+  #   seq_len: 96
+  #   label_len: 48
+  #   pred_len: 192
+  #   enc_in: 21
+  #   dec_in: 21
+  #   c_out: 21
 
-  LTF_Weather_p336:
-    task_name: long_term_forecast
-    dataset: Weather
-    data: custom
-    embed: timeF
-    root_path: ../dataset/weather/
-    data_path: weather.csv
-    features: M
-    seq_len: 96
-    label_len: 48
-    pred_len: 336
-    enc_in: 21
-    dec_in: 21
-    c_out: 21
+  # LTF_Weather_p336:
+  #   task_name: long_term_forecast
+  #   dataset: Weather
+  #   data: custom
+  #   embed: timeF
+  #   root_path: ./dataset/weather/
+  #   data_path: weather.csv
+  #   features: M
+  #   seq_len: 96
+  #   label_len: 48
+  #   pred_len: 336
+  #   enc_in: 21
+  #   dec_in: 21
+  #   c_out: 21
 
-  LTF_Weather_p720:
-    task_name: long_term_forecast
-    dataset: Weather
-    data: custom
-    embed: timeF
-    root_path: ../dataset/weather/
-    data_path: weather.csv
-    features: M
-    seq_len: 96
-    label_len: 48
-    pred_len: 720
-    enc_in: 21
-    dec_in: 21
-    c_out: 21
+  # LTF_Weather_p720:
+  #   task_name: long_term_forecast
+  #   dataset: Weather
+  #   data: custom
+  #   embed: timeF
+  #   root_path: ./dataset/weather/
+  #   data_path: weather.csv
+  #   features: M
+  #   seq_len: 96
+  #   label_len: 48
+  #   pred_len: 720
+  #   enc_in: 21
+  #   dec_in: 21
+  #   c_out: 21
 
   CLS_Heartbeat:
     task_name: classification
     dataset: Heartbeat
     data: UEA
     embed: timeF
-    root_path: ../dataset/Heartbeat/
+    root_path: ./dataset/UAE/Heartbeat/
     seq_len: 405
     label_len: 0
     pred_len: 0
@@ -317,7 +317,7 @@ task_dataset:
     dataset: JapaneseVowels
     data: UEA
     embed: timeF
-    root_path: ../dataset/JapaneseVowels/
+    root_path: ./dataset/UAE/JapaneseVowels/
     seq_len: 29
     label_len: 0
     pred_len: 0
@@ -330,7 +330,7 @@ task_dataset:
     dataset: PEMS-SF
     data: UEA
     embed: timeF
-    root_path: ../dataset/PEMS-SF/
+    root_path: ./dataset/UAE/PEMS-SF/
     seq_len: 144
     label_len: 0
     pred_len: 0
@@ -343,7 +343,7 @@ task_dataset:
     dataset: SelfRegulationSCP2
     data: UEA
     embed: timeF
-    root_path: ../dataset/SelfRegulationSCP2/
+    root_path: ./dataset/UAE/SelfRegulationSCP2/
     seq_len: 1152
     label_len: 0
     pred_len: 0
@@ -356,7 +356,7 @@ task_dataset:
     dataset: SpokenArabicDigits
     data: UEA
     embed: timeF
-    root_path: ../dataset/SpokenArabicDigits/
+    root_path: ./dataset/UAE/SpokenArabicDigits/
     seq_len: 93
     label_len: 0
     pred_len: 0
@@ -369,7 +369,7 @@ task_dataset:
     dataset: UWaveGestureLibrary
     data: UEA
     embed: timeF
-    root_path: ../dataset/UWaveGestureLibrary/
+    root_path: ./dataset/UAE/UWaveGestureLibrary/
     seq_len: 315
     label_len: 0
     pred_len: 0
@@ -382,7 +382,7 @@ task_dataset:
     dataset: ECG5000
     data: UEA
     embed: timeF
-    root_path: ../dataset/UCR/ECG5000
+    root_path: ./dataset/UCR/ECG5000
     seq_len: 140
     label_len: 0
     pred_len: 0
@@ -395,7 +395,7 @@ task_dataset:
     dataset: NonInvasiveFetalECGThorax1
     data: UEA
     embed: timeF
-    root_path: ../dataset/UCR/NonInvasiveFetalECGThorax1
+    root_path: ./dataset/UCR/NonInvasiveFetalECGThorax1
     seq_len: 750
     label_len: 0
     pred_len: 0
@@ -408,7 +408,7 @@ task_dataset:
     dataset: Blink
     data: UEA
     embed: timeF
-    root_path: ../dataset/Blink
+    root_path: ./dataset/Blink
     seq_len: 510
     label_len: 0
     pred_len: 0
@@ -421,7 +421,7 @@ task_dataset:
     dataset: FaceDetection
     data: UEA
     embed: timeF
-    root_path: ../dataset/FaceDetection
+    root_path: ./dataset/UAE/FaceDetection
     seq_len: 62
     label_len: 0
     pred_len: 0
@@ -434,7 +434,7 @@ task_dataset:
     dataset: ElectricDevices
     data: UEA
     embed: timeF
-    root_path: ../dataset/UCR/ElectricDevices
+    root_path: ./dataset/UCR/ElectricDevices
     seq_len: 96
     label_len: 0
     pred_len: 0
@@ -447,7 +447,7 @@ task_dataset:
     dataset: Trace
     data: UEA
     embed: timeF
-    root_path: ../dataset/UCR/Trace
+    root_path: ./dataset/UCR/Trace
     seq_len: 275
     label_len: 0
     pred_len: 0
@@ -460,7 +460,7 @@ task_dataset:
     dataset: FordB
     data: UEA
     embed: timeF
-    root_path: ../dataset/UCR/FordB
+    root_path: ./dataset/UCR/FordB
     seq_len: 500
     label_len: 0
     pred_len: 0
@@ -473,7 +473,7 @@ task_dataset:
     dataset: MotionSenseHAR
     data: UEA
     embed: timeF
-    root_path: ../dataset/MotionSenseHAR
+    root_path: ./dataset/MotionSenseHAR
     seq_len: 200
     label_len: 0
     pred_len: 0
@@ -486,7 +486,7 @@ task_dataset:
     dataset: EMOPain
     data: UEA
     embed: timeF
-    root_path: ../dataset/EMOPain
+    root_path: ./dataset/EMOPain
     seq_len: 180
     label_len: 0
     pred_len: 0
@@ -499,7 +499,7 @@ task_dataset:
     dataset: Chinatown
     data: UEA
     embed: timeF
-    root_path: ../dataset/UCR/Chinatown
+    root_path: ./dataset/UCR/Chinatown
     seq_len: 24
     label_len: 0
     pred_len: 0
@@ -512,7 +512,7 @@ task_dataset:
     dataset: MelbournePedestrian
     data: UEA
     embed: timeF
-    root_path: ../dataset/UCR/MelbournePedestrian
+    root_path: ./dataset/UCR/MelbournePedestrian
     seq_len: 24
     label_len: 0
     pred_len: 0
@@ -525,7 +525,7 @@ task_dataset:
     dataset: SharePriceIncrease
     data: UEA
     embed: timeF
-    root_path: ../dataset/SharePriceIncrease
+    root_path: ./dataset/SharePriceIncrease
     seq_len: 60
     label_len: 0
     pred_len: 0
